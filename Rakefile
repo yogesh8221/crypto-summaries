@@ -30,7 +30,6 @@ task :generate do
         end
       end
     end
-
   end
 
   # Create an index.html
