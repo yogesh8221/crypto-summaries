@@ -22,4 +22,6 @@ SOFTWARE.
 
 The license above only applies to source code, not to any of the .txt files
 contained in this repo. The txt files are generated on the fly based on
-content of external websites, using a third party API.
+content of external websites, using a third party API. The text files might use
+sources like Wikipedia, the website provided on CoinMarketCap, and uses aylien
+to generate summaries based on the provided text.

@@ -27,7 +27,7 @@ class Coinmarketcap
     end
     html_content = connection.get.body
     matched = html_content.match(/<span.*title\=\"Website\"\>\<\/span\>.*\<a href\=\"([\w\-\_\.\:\/]+)\"/)
-    if matched.length > 1
+    if matched && matched.length > 1
       return matched[1]
     else
       puts "Couldn't find website URL for coin #{coin['name']}: #{coin['url']}"
