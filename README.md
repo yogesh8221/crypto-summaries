@@ -27,19 +27,23 @@ Same thing, e.g.
 
 ## How does it work?
 
-The data comes from different sources
+There is a reference folder called [./reference](./reference), that conatains the summary for `x` sentences for each currency. Those will be copied over to the public facing `coins` directory with different names, to make the API as flexible as possible.
 
-- Manually provided (see section below)
-- Abstract from Wikipedia, the first `x` sentences
-- A summary of the website that's linked on [coinmarketcap](https://coinmarketcap.com), summarized via [aylien.com](https://aylien.com/).
-
-Notice the [LICENSE](LICENSE) file - you have to check the permission from Wikipedia to be sure you're allowed to use the abstract.
-
-## How can I overwrite the automatically determined summary?
-
-Check out the [./manual](./manual) directory, you can use the official `symbol` with the number of sentences (`[symbol]-[sentences].txt`) and store the summary in there. Next time the script runs, it will be applied to all the public facing `.txt` files.
+Check out the [./reference](./reference) directory, you can use the official `symbol` with the number of sentences (`[symbol]-[sentences].txt`) and store the summary in there. Next time the script runs, it will be applied to all the public facing `.txt` files.
 
 If you want to help, check out [./missing_summaries.txt](./missing_summaries.txt) for the currencies for which there is no summary available at all.
+
+## How can I contribute?
+
+**Important**: Please only manually modiy the files in the `reference` directory, not the ones in `coins`, as those are the auto-generated ones. 
+
+You can use the GitHub UI to instanly edit the description without any coding skills:
+
+- Press `t`
+- Enter `reference/[coin_name]-[lines].txt`
+- Press enter
+- Press `e`
+- Edit the content and hit the `Commit changes` button at the bottom of the page
 
 ## Re-generate the files
 
