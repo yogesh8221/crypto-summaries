@@ -13,13 +13,13 @@ task :generate do
     output_names = [current_coin["name"], current_coin["id"], current_coin["symbol"]]
 
     lenghts.each do |number_of_sentences|
-      local_manual_path = File.join("manual", "#{current_coin['symbol']}-#{number_of_sentences}.txt")
+      local_reference_path = File.join("reference", "#{current_coin['symbol']}-#{number_of_sentences}.txt")
 
-      if File.exist?(local_manual_path)
-        puts "Using local, manual description of the coin #{current_coin['symbol']} for #{number_of_sentences} sentence(s)"
+      if File.exist?(local_reference_path)
+        puts "Using local, reference description of the coin #{current_coin['symbol']} for #{number_of_sentences} sentence(s)"
         output_names.each do |output_name|
           output_file = File.join(coins_dir, "#{output_name}-#{number_of_sentences}.txt".gsub("/", "-"))
-          FileUtils.cp(local_manual_path, output_file)
+          FileUtils.cp(local_reference_path, output_file)
         end
         all_coins << current_coin["symbol"]
       else
