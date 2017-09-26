@@ -6,6 +6,10 @@ This project tries to provide the simpliest possible API to get a summary of a c
 
 Check out [krausefx.github.io/crypto-summaries](https://krausefx.github.io/crypto-summaries/) for a list of the available summaries.
 
+## State of the project
+
+This is a super early version of what this might look like, of course there is not a ton of content here yet. Feel free to check out the existing, supported coins on [krausefx.github.io/crypto-summaries](https://krausefx.github.io/crypto-summaries/) and [contribute more on GitHub directly](#how-can-i-contribute).
+
 ## How to use the API
 
 ### Access the summary of Bitcoin:
