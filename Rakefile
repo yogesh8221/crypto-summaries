@@ -26,7 +26,7 @@ task :generate do
         missing_summaries << current_coin["symbol"]
         output_names.each do |output_name|
           output_file = File.join(coins_dir, "#{output_name}-#{number_of_sentences}.txt".gsub("/", "-"))
-          File.write(output_file, "No summary found - feel free to contribute one on https://github.com/KrauseFx/crypto-summaries")
+          File.write(output_file, "") # we'll have an empy file instead of a 404, as it's easier for the API client to understand
         end
       end
     end
