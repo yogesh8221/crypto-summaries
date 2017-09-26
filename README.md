@@ -35,7 +35,7 @@ If you want to help, check out [./missing_summaries.txt](./missing_summaries.txt
 
 ## How can I contribute?
 
-**Important**: Please only manually modiy the files in the `reference` directory, not the ones in `coins`, as those are the auto-generated ones. 
+**Important**: Please only manually modiy the files in the [./reference](./reference) directory, not the ones in `coins`, as those are the auto-generated ones. 
 
 You can use the GitHub UI to instanly edit the description without any coding skills:
 
@@ -48,6 +48,5 @@ You can use the GitHub UI to instanly edit the description without any coding sk
 ## Re-generate the files
 
 - Make sure to run `bundle install` to install all dependencies
-- Make sure to have provided the summary API keys `AYLIEN_APP_ID` and `ALYIEN_APP_KEY`
 - Run `bundle exec rake generate`
 - Commit & push the changes
