@@ -12,6 +12,7 @@ task :generate do
   FileUtils.mkdir_p(coins_dir)
   all_coins = []
   lenghts = [1, 3, 5]
+  missing_summaries = []
 
   Coinmarketcap.fetch.each_with_index do |current_coin, index|
     break if index > 50
@@ -53,6 +54,7 @@ task :generate do
           end
           if summary.to_s.length < 10
             summary = "No summary found - feel free to contribute one on https://github.com/KrauseFx/crypto-summaries"
+            missing_summaries << current_coin["symbol"]
           end
         end
 
@@ -80,4 +82,5 @@ task :generate do
   html_content << "<h5>Webdesign and development by <a href='https://krausefx.com'>Felix Krause</a><h5>"
   puts html_content
   File.write("index.html", html_content.join("\n"))
+  File.write("missing_summaries.txt", missing_summaries.uniq.join("\n"))
 end
