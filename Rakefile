@@ -9,6 +9,7 @@ task :generate do
   missing_summaries = []
 
   Coinmarketcap.fetch.each_with_index do |current_coin, index|
+    next if index > 100
     output_names = [current_coin["name"], current_coin["id"], current_coin["symbol"]]
 
     lenghts.each do |number_of_sentences|
