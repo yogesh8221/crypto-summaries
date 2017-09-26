@@ -1,0 +1,3 @@
+
+Omni (formerly Mastercoin) is a digital currency and communications protocol built on the bitcoin blockchain. It is one of several efforts to enable complex financial functions in a cryptocurrency. Planned features include the development of a decentralized exchange and the implementation of smart property and savings wallets.
+«A common analogy that is used to describe the relation of the Omni Layer to bitcoin is that of HTTP to TCP/IP: HTTP, like the Omni Layer, is the application layer to the more fundamental transport and internet layer of TCP/IP, like bitcoin.»

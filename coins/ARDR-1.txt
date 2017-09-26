@@ -1,0 +1,1 @@
+Note: If you have ARDR tokens, do NOT send them to the address you create on the Ardor Testnet..

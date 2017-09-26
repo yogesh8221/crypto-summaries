@@ -1,0 +1,6 @@
+ISO 4217 is a standard first published by International Organization for Standardization in 1978, which delineates currency designators, country codes (alpha and numeric), and references to minor units in three tables:
+Table A.1 – Current currency &amp; funds code list
+Table A.2 – Current funds codes
+Table A.3 – List of codes for historic denominations of currencies &amp; funds
+The tables, history and ongoing discussion are maintained by SIX Interbank Clearing on behalf of ISO and the Swiss Association for Standardization.
+The ISO 4217 code list is used in banking and business globally
