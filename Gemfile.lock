@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    aylien_text_api (0.7.0)
     coderay (1.1.2)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
@@ -18,7 +17,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aylien_text_api
   faraday
   faraday_middleware (~> 0.9)
   pry
