@@ -1,1 +1,0 @@
-The Ardor testnet is open to everyone. When using the Ardor testnet, please remember not to use your Nxt passphrase for security reasons. Note: If you have ARDR tokens, do NOT send them to the address you create on the Ardor Testnet..

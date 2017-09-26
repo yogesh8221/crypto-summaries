@@ -1,4 +1,0 @@
-Cryptocurrency tumbler or cryptocurrency mixing service is a service offered to mix potentially identifiable or 'tainted' cryptocurrency funds with others, with the intention of confusing the trail back to the fund's original source. Tumblers have arisen to improve the anonymity of popular cryptocurrencies, usually bitcoin (Bitcoin mixer), since they provide a public ledger of all transactions.
-
-
-
