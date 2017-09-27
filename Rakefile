@@ -18,14 +18,14 @@ task :generate do
       if File.exist?(local_reference_path)
         puts "Using local, reference description of the coin #{current_coin['symbol']} for #{number_of_sentences} sentence(s)"
         output_names.each do |output_name|
-          output_file = File.join(coins_dir, "#{output_name}-#{number_of_sentences}.txt".gsub("/", "-"))
+          output_file = File.join(coins_dir, "#{output_name}-#{number_of_sentences}.txt".gsub("/", "-").downcase)
           FileUtils.cp(local_reference_path, output_file)
         end
         all_coins << current_coin["symbol"]
       else
         missing_summaries << current_coin["symbol"]
         output_names.each do |output_name|
-          output_file = File.join(coins_dir, "#{output_name}-#{number_of_sentences}.txt".gsub("/", "-"))
+          output_file = File.join(coins_dir, "#{output_name}-#{number_of_sentences}.txt".gsub("/", "-").downcase)
           File.write(output_file, "") # we'll have an empy file instead of a 404, as it's easier for the API client to understand
         end
       end
@@ -37,7 +37,7 @@ task :generate do
   html_content << "<ul>"
   html_content += all_coins.uniq.collect do |current_symbol|
     "<li> #{current_symbol} (" + lenghts.collect do |number_of_sentences|
-      link = File.join(coins_dir, "#{current_symbol}-#{number_of_sentences}.txt")
+      link = File.join(coins_dir, "#{current_symbol}-#{number_of_sentences}.txt").downcase
       "<a href='#{link}' target='_blank'>#{number_of_sentences}</a>"
     end.join(", ") + ")</li>"
   end
