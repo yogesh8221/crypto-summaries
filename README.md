@@ -20,14 +20,16 @@ This is a super early version of what this might look like, of course there is n
 
 Alternatively you can also use the name of the coin instead of `symbol`
 
-- **3 lines summary**: [https://krausefx.github.io/crypto-summaries/coins/Bitcoin-3.txt](https://krausefx.github.io/crypto-summaries/coins/Bitcoin-3.txt)
+- **3 lines summary**: [https://krausefx.github.io/crypto-summaries/coins/bitcoin-3.txt](https://krausefx.github.io/crypto-summaries/coins/bitcoin-3.txt)
+
+Note that the name/symbol always has to be lower case.
 
 ### Access the summary of Ethereum
 
 Same thing, e.g.
 
-- [https://krausefx.github.io/crypto-summaries/coins/ETH-5.txt](https://krausefx.github.io/crypto-summaries/coins/ETH-5.txt)
-- [https://krausefx.github.io/crypto-summaries/coins/Ethereum-1.txt](https://krausefx.github.io/crypto-summaries/coins/Ethereum-1.txt)
+- [https://krausefx.github.io/crypto-summaries/coins/eth-5.txt](https://krausefx.github.io/crypto-summaries/coins/eth-5.txt)
+- [https://krausefx.github.io/crypto-summaries/coins/ethereum-1.txt](https://krausefx.github.io/crypto-summaries/coins/ethereum-1.txt)
 
 ## How does it work?
 
