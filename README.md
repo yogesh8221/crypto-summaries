@@ -14,9 +14,9 @@ This is a super early version of what this might look like, of course there is n
 
 ### Access the summary of Bitcoin:
 
-- **1 line summary**: [https://krausefx.github.io/crypto-summaries/coins/BTC-1.txt](https://krausefx.github.io/crypto-summaries/coins/BTC-1.txt)
-- **3 lines summary**: [https://krausefx.github.io/crypto-summaries/coins/BTC-3.txt](https://krausefx.github.io/crypto-summaries/coins/BTC-3.txt)
-- **5 lines summary**: [https://krausefx.github.io/crypto-summaries/coins/BTC-5.txt](https://krausefx.github.io/crypto-summaries/coins/BTC-5.txt)
+- **1 line summary**: [https://krausefx.github.io/crypto-summaries/coins/btc-1.txt](https://krausefx.github.io/crypto-summaries/coins/btc-1.txt)
+- **3 lines summary**: [https://krausefx.github.io/crypto-summaries/coins/btc-3.txt](https://krausefx.github.io/crypto-summaries/coins/btc-3.txt)
+- **5 lines summary**: [https://krausefx.github.io/crypto-summaries/coins/btc-5.txt](https://krausefx.github.io/crypto-summaries/coins/btc-5.txt)
 
 Alternatively you can also use the name of the coin instead of `symbol`
 
