@@ -1,0 +1,1 @@
+Bitcoin Cash Scrypt introduces a new way of signing transactions. This also brings additional benefits such as input value signing for improved hardware wallet security, and elimination of the quadratic hashing problem.
