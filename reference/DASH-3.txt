@@ -1,0 +1,1 @@
+DigitalCash (DASH) uses a new chained hashing algorithm approach, with many new scientific hashing algorithms for the proof-of-work. DASH aims to be the first privacy-centric cryptographic currency with fully encrypted transactions and anonymous block transactions, this feature is called PrivateSend and can be found on the official Dashcore wallet.
